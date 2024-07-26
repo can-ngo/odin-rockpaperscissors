@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap-grid.min.css" integrity="sha512-i1b/nzkVo97VN5WbEtaPebBG8REvjWeqNclJ6AItj7msdVcaveKrlIIByDpvjk5nwHjXkIqGZscVxOrTb9tsMA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Rock Paper Scissors</title>
+    </head>
+    <body>
+    <h1>ROCK PAPER SCISSORS GAME</h1>
+    <div class="container">
+        <div class="d-flex justify-content-between" id="choices-container">
+            <button class="col-3" value='rock' id="rock-btn">Rock</button>
+            <button class="col-3" value='paper' id="paper-btn">Paper</button>
+            <button class="col-3" value='scissors' id="scissors-btn">Scissors</button>
+        </div>
+        <div class="row justify-content-center mt-2">
+            <button class="col-3" id="reset-btn">Reset</button>
+        </div>
+    </div>
+    
+    <p><b>Round:</b> <span id="round-label"></span></p>
+    <div id="status"></div>
+    <div id="result">
+        <div><b>Your score:</b> <span id="human-score"></span></div>
+        <div><b>Computer score:</b> <span id="computer-score"></span></div>
+    </div>
+    <!-- javascript -->
+     <script src="script.js"></script>
+    </body>
+</html>

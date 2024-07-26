@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vmin;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(16, 66, 16);
+    color: aliceblue;
+    text-align: center;
+}
+
+#status {
+    width: 20rem;
+    height: 50px;
+    background-color: black;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+#result {
+    display: flex;
+    gap: 1.5rem;
+}
+
+button {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 390px) {
+
+    button {
+        font-size: 1rem;
+    }
+    #choices-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0.7rem;
+    }
+    #status {
+        height: 50px;
+    }
+}
