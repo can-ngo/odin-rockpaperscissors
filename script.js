@@ -79,7 +79,3 @@ function playGame () {
         scissorsBtn.setAttribute('disabled','true');
     }
 }
-
-
-
-
